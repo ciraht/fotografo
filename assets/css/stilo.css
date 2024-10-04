@@ -70,12 +70,6 @@ body {
     margin-top: 50px; /* Deixa espaço para o cabeçalho fixo */
 }
 
-.rodape {
-    background-color: var(--branco-sujo);
-    height: 50px;
-    width: 100%;
-}
-
 .fundo {
     background-color: var(--branco);
 }
@@ -97,6 +91,7 @@ header nav {
 .titulo {
     font-size: 100px;
     color: var(--branco-claro);
+    margin-left: 60px;
 }
 
 .space{
@@ -125,6 +120,42 @@ header nav {
     border-radius: 4px;
 }
 
+.foto1{
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.foto2{
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.foto3{
+    background-image: url(../img/3.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
 .gira1{
     transform: rotate(10deg);
 }
@@ -134,18 +165,6 @@ header nav {
 }
 .gira3{
     transform: rotate(15deg);
-}
-
-.foto{
-    background-image: url(../img/4.png);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: bottom center;
-    height: 250px;
-    width: 250px;
-    margin-left: 20px;
-    margin-top: 20px;
-
 }
 
 .fundo-marrom{
@@ -160,8 +179,7 @@ header nav {
     border-radius: 4px;
 }
 
-.fotinha1{
-    background-image: url(../img/4.png);
+.fotinha{
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: bottom center;
@@ -172,25 +190,21 @@ header nav {
 
 }
 
-.fotinha2{
-    background-image: url(../img/11.png);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: bottom center;
-    height: 160px;
-    width: 160px;
-    margin-left: 10px;
-    margin-top: 10px;
-
+.moldurinha:hover{
+    background-color: var(--branco-claro);
+    height: 230px;
+    width: 200px;
+    box-shadow: var(--marrom-escuro) 20px 20px 20px;
+    border-radius: 4px;
+    transform: rotate(0deg);
 }
 
-.fotinha3{
-    background-image: url(../img/23.png);
+.fotinha:hover{
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: bottom center;
-    height: 160px;
-    width: 160px;
+    height: 180px;
+    width: 180px;
     margin-left: 10px;
     margin-top: 10px;
 
@@ -214,4 +228,27 @@ section h3{
 
 .space4{
     height: 30px;
+}
+
+/* entrar em contato */
+
+
+
+/* Roda pé */
+
+.rodape {
+    background-color: var(--branco-sujo);
+    
+    width: 100%;
+}
+
+.rodape p{
+    color: var(--marrom)
+}
+
+.icone{
+    height: 30px;
+    width: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
