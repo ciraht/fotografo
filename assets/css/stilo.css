@@ -98,7 +98,10 @@ header nav {
     font-size: 100px;
     color: var(--branco-claro);
 }
-
+.titulog {
+    font-size: 100px;
+    color: var(--marrom-escuro);
+}
 .space{
     height: 200px;
 }
@@ -254,4 +257,31 @@ section h3{
 
 .form-button:hover {
     background-color: var(--marrom-claro);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+.gallery-item {
+    margin: 10px;
+}
+.gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 4px; 
+    box-shadow: var(--marrom-claro) 5px 5px 15px; 
+}
+
+.gallery img {
+    width: 250px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 4px; /* Se desejar bordas arredondadas */
+    box-shadow: var(--marrom-claro) 5px 5px 15px; /* Sombras para as fotos */
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Aumenta a imagem em 5% */
 }
