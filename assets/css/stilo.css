@@ -325,12 +325,13 @@ section h3{
 .bio h3 {
     margin-top: 20px;
     font-size: 20px;
-    color: #333;
+    color: #080808;
 }
 
 .bio p, .bio ul {
     margin-bottom: 10px;
     line-height: 1.6;
+    color: #000000;
 }
 
 ul {
