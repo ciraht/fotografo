@@ -285,3 +285,49 @@ section h3{
 .gallery img:hover {
     transform: scale(1.05);
 }
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.bio img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 5%;
+}
+
+.bio-text {
+    max-width: 800px;
+}
+
+.bio h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.bio h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.bio p, .bio ul {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.negrito {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
