@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stilo.css">
     <title>Formulário de Contato</title>
 </head>
 <body class="fundo">
@@ -18,16 +25,22 @@
         </div>
     </header>
 
-    <main>
-        <form>
-            <label for="Nome">Nome:</label>
-            <input type="text" name="Nome">
-            <label for="Email">Email:</label>
-            <input type="email" name="Email">
-            <label for="Mensagem">Mensagem:</label>
-            <input type="text">
-            <button type="reset">Enviar mensagem</button>
-        </form>
+    <main class="main">
+        <br><br><br>
+        <div class="form-container">
+            <form>
+                <label class="form-label" for="Nome">Nome:</label>
+                <input class="form-input" type="text" name="Nome" required>
+                
+                <label class="form-label" for="Email">Email:</label>
+                <input class="form-input" type="email" name="Email" required>
+                
+                <label class="form-label" for="Mensagem">Mensagem:</label>
+                <input class="form-input" type="text" name="Mensagem" required>
+                
+                <button class="form-button" type="submit">Enviar mensagem</button>
+            </form>
+        </div>
     </main>
     <footer class="rodape">
         <p>© 2024 Mario Fotos. Todos os direitos reservados.</p>
