@@ -53,7 +53,7 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Garante que o corpo tenha a altura mínima da tela */
+    min-height: 100vh; 
 }
 
 .cabecalho {
@@ -62,12 +62,12 @@ body {
     flex-direction: row-reverse;
     position: fixed;
     width: 100%;
-    z-index: 10; /* Garante que o cabeçalho fique acima de outros elementos */
+    z-index: 10; 
 }
 
 .main {
-    flex: 1; /* Faz o main ocupar o espaço restante */
-    margin-top: 50px; /* Deixa espaço para o cabeçalho fixo */
+    flex: 1; 
+    margin-top: 50px; 
 }
 
 .rodape {
@@ -225,7 +225,7 @@ section h3{
     border-radius: 8px;
     box-shadow: var(--marrom-escuro) 5px 5px 15px;
     width: 400px;
-    margin: 0 auto; /* Centraliza o formulário */
+    margin: 0 auto; 
 }
 
 .form-label {
