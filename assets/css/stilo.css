@@ -275,13 +275,13 @@ section h3{
 }
 
 .gallery img {
-    width: 250px; /* Defina a largura desejada */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 4px; /* Se desejar bordas arredondadas */
-    box-shadow: var(--marrom-claro) 5px 5px 15px; /* Sombras para as fotos */
-    transition: transform 0.3s; /* Transição suave */
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: var(--marrom-claro) 5px 5px 15px;
+    transition: transform 0.3s;
 }
 
 .gallery img:hover {
-    transform: scale(1.05); /* Aumenta a imagem em 5% */
+    transform: scale(1.05);
 }
