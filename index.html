@@ -55,6 +55,7 @@
 
                 <div class="moldura d-flex gira2">
                     <div class="foto1"></div>
+                    <p class="centraliza" id="txt1"></p>
                 </div>
 
                 <div class="moldura d-flex gira3">
@@ -63,6 +64,40 @@
             </div>
             <div class="space2"></div>
         </section>
+
+        <script>
+            function som(){
+                var foto2 = document.querySelector(".foto2")
+                foto2.remove()
+            }
+        
+            var foto2 = document.querySelector('.foto2')
+            foto2.addEventListener('click', som)
+
+
+
+
+            function somi(){
+                var foto1 = document.querySelector(".foto1")
+                foto1.remove()
+                var txt1 = document.querySelector("#txt1")
+                txt1.textContent = "66x"
+            }
+        
+            var foto1 = document.querySelector('.foto1')
+            foto1.addEventListener('click', somi)
+
+    
+
+
+            function somir(){
+                var foto3 = document.querySelector(".foto3")
+                foto3.remove()
+            }
+    
+            var foto3 = document.querySelector('.foto3')
+            foto3.addEventListener('click', somir)
+        </script>
 
 
         <section class="fundo-marrom">
