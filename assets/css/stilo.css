@@ -18,7 +18,20 @@
     --marrom: #835d3d;
     --marrom-escuro: #5e422b;
 }
-
+.font{
+    font-family: "Cormorant Garamond";
+}
+.font-text{
+    font-family: 'Courier Prime';
+}
+.line-division{
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: -15px;
+    height: 30px;
+    width: 1px;
+    background-color: #835d3d4f;
+}
 .d-flex{
     display: flex;
 }

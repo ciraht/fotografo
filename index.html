@@ -1,48 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/stilo.css">
 </head>
 <body class="fundo">
     <header class="cabecalho d-flex">
-        <a href="index.html"><nav>Home</nav></a>
-        <a href="galeria.html"><nav>Galeria</nav></a>
-        <a href="formulario.html"><nav>Contato</nav></a>
-        <a href="quemSouEu.html"><nav>Quem sou eu</nav></a>
+        <div class="d-flex">
+            <a href="index.html"><nav>Home</nav></a>
+            <div class="line-division"></div>
+            <a href="galeria.html"><nav>Galeria</nav></a>
+            <div class="line-division"></div>
+            <a href="formulario.html"><nav>Contato</nav></a>
+            <div class="line-division"></div>
+            <a href="quemSouEu.html"><nav>Quem sou eu</nav></a>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h1 class="titulo">Mario Fotos</h1>
-        </section>
-
         <section class="img_fundo">
-            <div class="space"></div>
-            <p class="texticulo">
-                Olá! Eu sou (nome do fotógrafo), apaixonado por capturar momentos únicos e transformar 
-                histórias em imagens que duram para sempre. Com uma abordagem criativa e personalizada,
-                busco ir além das fotos tradicionais, captando emoções e detalhes que fazem cada projeto
-                ser especial. 
-
-                <br><br>Vamos contar sua história através das minhas lentes?
-            </p>
+            <h1 class="titulo font">Mario Fotos</h1>
         </section>
 
-        <section class="centraliza">
-            <div class="space2"></div>
-            <div class="d-flex-evelin">
+        <section class="centraliza d-flex">
+            <div>
+                <h2 >Sobre mim...</h2>
+                <p class="texticulo font-text">
+                    Olá! Eu sou (nome do fotógrafo), apaixonado por capturar momentos únicos e transformar 
+                    histórias em imagens que duram para sempre. Com uma abordagem criativa e personalizada,
+                    busco ir além das fotos tradicionais, captando emoções e detalhes que fazem cada projeto
+                    ser especial. Seja para registrar eventos, ensaios pessoais, ou momentos importantes da
+                    sua vida, meu objetivo é fazer com que você se sinta confortável e confiante, enquanto
+                    criamos juntos memórias inesquecíveis.
 
-                <div class="moldura d-flex gira1">
-                    <div class="foto"></div>
-                </div>
-
-                <div class="moldura d-flex gira2">
-                    <div class="foto"></div>
-                </div>
+                    <br>Vamos contar sua história através das minhas lentes?
+                </p>
+            </div>
 
                 <div class="moldura d-flex gira3">
                     <div class="foto"></div>
@@ -136,9 +137,7 @@
 
         <section>
             <h4>Entre em contato</h4>
-            <form action="/formulario.html">
-                <label for=""></label>
-            </form>
+            <a href="formulario.html">Clique Aqui</a>
         </section>
 
     </main>
