@@ -18,6 +18,10 @@
     --marrom-escuro: #5e422b;
 }
 
+.top {
+    margin-top: 8px;
+}
+
 .font {
     font-family: "Cormorant Garamond";
 }
@@ -116,6 +120,9 @@ header nav {
     
 }
 
+.confirm {
+    color: var(--marrom)
+}
 .space2{
     height: 90px;
 }
