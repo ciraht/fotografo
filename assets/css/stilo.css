@@ -15,6 +15,7 @@
     --beje-escuro: #E8C39E;
     --marrom-claro: #b08561;
     --marrom: #835d3d;
+    --marrom-escuro: #5e422b;
 }
 
 .font {
@@ -98,21 +99,119 @@ header nav {
     color: var(--branco-claro);
 }
 
-.texticulo {
+.space{
+    height: 200px;
+}
+.texticulo{
     text-align: justify;
-    font-size: 25px;
+    display: flex;
+    font-size: 30px;
     text-align: left;
     margin-left: 60px;
-    margin-right: 900px;
-    margin-top: 20px;
+    margin-right: 600px;
+    color: var(--branco-claro);
+    
+}
+
+.space2{
+    height: 90px;
 }
 
 .moldura {
     background-color: var(--branco-claro);
-    height: 180px;
-    width: 180px;
+    height: 330px;
+    width: 290px;
+    box-shadow: var(--marrom-claro) 20px 20px 20px;
+    border-radius: 4px;
 }
 
-.muldura {
+.gira1{
+    transform: rotate(10deg);
+}
+
+.gira2{
+    transform: rotate(-6deg);
+}
+.gira3{
+    transform: rotate(15deg);
+}
+
+.foto{
     background-image: url(../img/4.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.fundo-marrom{
+    background-color: var(--marrom);
+}
+
+.moldurinha{
+    background-color: var(--branco-claro);
+    height: 210px;
+    width: 180px;
+    box-shadow: var(--marrom-escuro) 20px 20px 20px;
+    border-radius: 4px;
+}
+
+.fotinha1{
+    background-image: url(../img/4.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 160px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.fotinha2{
+    background-image: url(../img/11.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 160px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.fotinha3{
+    background-image: url(../img/23.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    height: 160px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+section p{
+    color: var(--branco);
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+section h3{
+    color: var(--branco-claro);
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.space3{
+    height: 50px;
+}
+
+.space4{
+    height: 30px;
 }
