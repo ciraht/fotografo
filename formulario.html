@@ -28,23 +28,45 @@
     <main class="main">
         <br><br><br>
         <div class="form-container">
-            <form>
+            <form id="form">
                 <label class="form-label" for="Nome">Nome:</label>
-                <input class="form-input" type="text" name="Nome" required>
+                <input class="form-input" id="name" type="text" name="Nome" required>
                 
                 <label class="form-label" for="Email">Email:</label>
-                <input class="form-input" type="email" name="Email" required>
+                <input class="form-input" id="email" type="email" name="Email" required>
                 
                 <label class="form-label" for="Mensagem">Mensagem:</label>
-                <input class="form-input" type="text" name="Mensagem" required>
+                <input class="form-input" id="message-for-send" type="text" name="Mensagem" required>
                 
-                <button class="form-button" type="submit">Enviar mensagem</button>
+                <button id="send-message" class="form-button" type="submit">Enviar mensagem</button>
+                <br>
+                <p id="message-confirm" class="confirm centraliza top"></p>
             </form>
         </div>
     </main>
-    <footer class="rodape">
+
+    <footer class="rodape centraliza">
+        <div class="space3"></div>
         <p>© 2024 Mario Fotos. Todos os direitos reservados.</p>
-        <p><a href="https://www.linkedin.com/in/meu-perfil" target="_blank">LinkedIn</a> | <a href="https://github.com/meu-perfil" target="_blank">GitHub</a></p>
+        <div class="space4"></div>
+        <div>
+            <img src="assets/img/facebook.png" class="icone">
+            <img src="assets/img/instagram.png" class="icone">
+            <img src="assets/img/whatsapp.png" class="icone">
+            <img src="assets/img/twitter.png" class="icone">
+            
+        </div>
+        <div class="space3"></div>
     </footer>
+    <script>
+        var confirm = document.getElementById('form')
+        var text = document.getElementById('message-confirm')
+        
+        confirm.addEventListener('submit', message)
+        function message(event){
+            event.preventDefault()
+            text.textContent = 'MENSAGEM ENVIADA COM SUCESSO'            
+        }
+    </script>
 </body>
 </html>
