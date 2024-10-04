@@ -1,15 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
     transition: all 0.3s;
-    
 }
 
-:root{
+:root {
     --branco-claro: #ffffff;
-    --branco:#fff6ed;
+    --branco: #fff6ed;
     --branco-sujo: #fdecda;
     --beje-claro: #f3dbc3;
     --beje: #eaccad;
@@ -17,13 +16,16 @@
     --marrom-claro: #b08561;
     --marrom: #835d3d;
 }
-.font{
+
+.font {
     font-family: "Cormorant Garamond";
 }
-.font-text{
+
+.font-text {
     font-family: 'Courier Prime';
 }
-.line-division{
+
+.line-division {
     margin-top: 15px;
     margin-right: 10px;
     margin-left: -15px;
@@ -31,40 +33,58 @@
     width: 1px;
     background-color: #835d3d4f;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
 
-.d-flex-evelin{
+.d-flex-evelin {
     display: flex;
     justify-content: space-evenly;
 }
 
-.centraliza{
+.centraliza {
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo tenha a altura mínima da tela */
+}
 
-.cabecalho{
+.cabecalho {
     background-color: var(--branco-sujo);
     height: 50px;
     flex-direction: row-reverse;
     position: fixed;
     width: 100%;
+    z-index: 10; /* Garante que o cabeçalho fique acima de outros elementos */
 }
 
-.fundo{
+.main {
+    flex: 1; /* Faz o main ocupar o espaço restante */
+    margin-top: 50px; /* Deixa espaço para o cabeçalho fixo */
+}
+
+.rodape {
+    background-color: var(--branco-sujo);
+    height: 50px;
+    width: 100%;
+}
+
+.fundo {
     background-color: var(--branco);
 }
 
-header nav{
+header nav {
     margin-right: 30px;
-    margin-top: 25px;;
+    margin-top: 25px;
 }
 
-.img_fundo{
+.img_fundo {
     background-image: url(../img/imagem_inicial.png);
     background-repeat: no-repeat;
     background-size: cover; 
@@ -73,12 +93,12 @@ header nav{
     height: 700px;
 }
 
-.titulo{
+.titulo {
     font-size: 100px;
     color: var(--branco-claro);
 }
 
-.texticulo{
+.texticulo {
     text-align: justify;
     font-size: 25px;
     text-align: left;
@@ -87,12 +107,12 @@ header nav{
     margin-top: 20px;
 }
 
-.moldura{
+.moldura {
     background-color: var(--branco-claro);
     height: 180px;
     width: 180px;
 }
 
-.muldura{
+.muldura {
     background-image: url(../img/4.png);
 }
