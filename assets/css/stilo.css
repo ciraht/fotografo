@@ -315,3 +315,30 @@ section h3{
     margin-left: 6px;
     margin-right: 6px;
 }
+
+.imagem_paisagem{
+    background-image: url(../img/paisagem.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    width: 100%;
+    height: 300px;
+}
+
+.imagem_estudio{
+    background-image: url(../img/estudio.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    width: 100%;
+    height: 300px;
+}
+
+.imagem_festa{
+    background-image: url(../img/festa.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    width: 100%;
+    height: 300px;
+}
