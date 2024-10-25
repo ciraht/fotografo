@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/stilo.css">
     </head>
-    <body class="fundo">
+    <body class="fundo font-text">
         <header class="cabecalho d-flex">
             <div class="d-flex">
                 <a href="index.html"><nav>Home</nav></a>
@@ -37,14 +37,14 @@
                 <h3>Nome:</h3> 
                 <p>Mario da Silva</p>
                 <h3>Data de Nascimento:</h3>
-                <p>15 de março de 2024</p>
+                <p>15 de março de 1996</p>
                 <h3>Local de Nascimento:</h3> 
                 <p>São Paulo, Brasil</p>
                 
                 <h3>Formação Acadêmica:</h3>
                 <ul>
-                    <li>Bacharel em Artes Visuais - Universidade de São Paulo (USP), 2004</li>
-                    <li>Mestrado em Fotografia e Comunicação - Escola de Comunicações e Artes da USP, 2008</li>
+                    <li>Bacharel em Artes Visuais - Universidade de São Paulo (USP), 2014</li>
+                    <li>Mestrado em Fotografia e Comunicação - Escola de Comunicações e Artes da USP, 2018</li>
                 </ul>
     
                 <h3>Exposições Individuais:</h3>
@@ -79,6 +79,8 @@
                     <li>Palestrante em Workshops e Seminários sobre Fotografia e Criatividade</li>
                 </ul>
             </div>
+            <span class="close" onclick="excluirElemento('elemento')">&times;</span>
+            <img  class="anuncio" id="elemento"  src="assets/img/anuncio.jpg" alt="Foto Tigrinho">
         </section>
         <footer class="rodape centraliza">
             <div class="space3"></div>
@@ -93,5 +95,19 @@
             </div>
             <div class="space3"></div>
         </footer>
+        <div class="container" id="elemento">
+
+    </div>
+
+    <script>
+
+        function excluirElemento(elementoId) {
+            var elemento = document.getElementById(elementoId);
+            if (elemento) {
+                elemento.remove();
+            }
+        }
+
+    </script>
 </body>
 </html>
